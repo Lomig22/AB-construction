@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AB Construction Rénovation Brest - Artisans experts en maçonnerie, peinture et rénovation complète. Qualité artisanale, résultats durables.">
+    <title>AB Construction Rénovation Brest - Artisans de la rénovation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">AB</span>
+                    <span class="logo-subtitle">Construction & Rénovation</span>
+                </a>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link active">Accueil</a>
+                    <a href="maconnerie.html" class="nav-link">Maçonnerie</a>
+                    <a href="peinture.html" class="nav-link">Peinture</a>
+                    <a href="theme-dancy.html" class="nav-link">Thème Dancy</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="contact.html" class="btn btn-primary">Devis gratuit</a>
+                </div>
+                
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-background">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/video/hero-video.mp4" type="video/mp4">
+            </video>
+            <!-- Fallback image si pas de vidéo -->
+            <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070');"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-small">Artisans de la</span>
+                    <span class="hero-title-main">Rénovation Totale</span>
+                    <span class="hero-title-location">à Brest et alentours</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Maçonnerie, peinture, rénovations thématiques — qualité artisanale, résultats durables
+                </p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary btn-lg">Nos services</a>
+                    <a href="#realisations" class="btn btn-secondary btn-lg">Voir nos réalisations</a>
+                    <a href="contact.html" class="btn btn-outline btn-lg">Demander un devis</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Clients satisfaits</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Découvrez</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="social-proof-wrapper">
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                        <span>Garantie décennale</span>
+                    </div>
+                    <div class="badge-item">
+                        <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        <span>Artisans qualifiés</span>
+                    </div>
+                    <div class="badge-item">
+                        <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                        <span>Note 4.9/5</span>
+                    </div>
+                    <div class="badge-item">
+                        <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                        <span>Matériaux premium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="pourquoi">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Nos valeurs</span>
+                <h2 class="section-title">Pourquoi nous choisir ?</h2>
+                <p class="section-subtitle">L'excellence artisanale au service de votre projet</p>
+            </div>
+            
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Expertise reconnue</h3>
+                    <p>Plus de 15 ans d'expérience dans la rénovation et la construction. Notre savoir-faire garantit des travaux de qualité professionnelle.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <h3>Matériaux premium</h3>
+                    <p>Nous sélectionnons uniquement des matériaux nobles et durables pour garantir la pérennité de vos travaux.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Engagement qualité</h3>
+                    <p>Garantie décennale, suivi personnalisé et respect des délais. Votre satisfaction est notre priorité absolue.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Communication transparente</h3>
+                    <p>Un accompagnement sur-mesure à chaque étape. Nous restons à votre écoute du devis à la réception des travaux.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h3>Artisan local</h3>
+                    <p>Basés à Brest, nous intervenons rapidement dans toute la région. Proximité et disponibilité garanties.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3>Résultats durables</h3>
+                    <p>Des finitions impeccables et des ouvrages qui traversent le temps. Chaque détail compte pour nous.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Nos expertises</span>
+                <h2 class="section-title">Des services complets</h2>
+                <p class="section-subtitle">De la conception à la réalisation, nous donnons vie à vos projets</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076');"></div>
+                    <div class="service-content">
+                        <h3>Maçonnerie</h3>
+                        <p>Construction, rénovation, joints de pierre. L'art de la structure pour des fondations solides et esthétiques.</p>
+                        <ul class="service-features">
+                            <li>Construction neuve</li>
+                            <li>Rénovation de façades</li>
+                            <li>Joints de pierre traditionnels</li>
+                            <li>Murs porteurs & cloisons</li>
+                        </ul>
+                        <a href="maconnerie.html" class="btn btn-text">
+                            Découvrir
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=2070');"></div>
+                    <div class="service-content">
+                        <h3>Peinture</h3>
+                        <p>Intérieure et extérieure, conseils couleurs personnalisés. Des finitions d'exception pour sublimer vos espaces.</p>
+                        <ul class="service-features">
+                            <li>Peinture intérieure & décoration</li>
+                            <li>Peinture de façade</li>
+                            <li>Conseils couleurs & textures</li>
+                            <li>Finitions haut de gamme</li>
+                        </ul>
+                        <a href="peinture.html" class="btn btn-text">
+                            Découvrir
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053');"></div>
+                    <div class="service-content">
+                        <h3>Thème Dancy</h3>
+                        <p>Rénovations thématiques sur-mesure. Une approche créative et personnalisée pour des intérieurs uniques.</p>
+                        <ul class="service-features">
+                            <li>Concept sur-mesure</li>
+                            <li>Design d'intérieur</li>
+                            <li>Aménagements créatifs</li>
+                            <li>Ambiances uniques</li>
+                        </ul>
+                        <a href="theme-dancy.html" class="btn btn-text">
+                            Découvrir
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Realisations Section -->
+    <section class="realisations" id="realisations">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Nos réalisations</h2>
+                <p class="section-subtitle">Découvrez nos projets de rénovation avant / après</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="maconnerie">Maçonnerie</button>
+                <button class="filter-btn" data-filter="peinture">Peinture</button>
+                <button class="filter-btn" data-filter="renovation">Rénovation complète</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="maconnerie">
+                    <div class="before-after">
+                        <div class="before-after-wrapper">
+                            <div class="before-after-image before" style="background-image: url('https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?q=80&w=2072');"></div>
+                            <div class="before-after-image after" style="background-image: url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070');"></div>
+                            <div class="before-after-slider">
+                                <div class="slider-button">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="18" y1="20" x2="18" y2="4"/>
+                                        <polyline points="14 10 18 4 22 10"/>
+                                        <polyline points="14 14 18 20 22 14"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Rénovation façade en pierre</h4>
+                            <p>Brest centre • Maçonnerie</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="peinture">
+                    <div class="before-after">
+                        <div class="gallery-single-image" style="background-image: url('https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=2070');"></div>
+                        <div class="gallery-info">
+                            <h4>Peinture intérieure salon</h4>
+                            <p>Guipavas • Peinture</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="renovation">
+                    <div class="before-after">
+                        <div class="gallery-single-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070');"></div>
+                        <div class="gallery-info">
+                            <h4>Rénovation complète maison</h4>
+                            <p>Gouesnou • Rénovation totale</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="maconnerie">
+                    <div class="before-after">
+                        <div class="gallery-single-image" style="background-image: url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2084');"></div>
+                        <div class="gallery-info">
+                            <h4>Extension maison</h4>
+                            <p>Plouzané • Maçonnerie</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="peinture">
+                    <div class="before-after">
+                        <div class="gallery-single-image" style="background-image: url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070');"></div>
+                        <div class="gallery-info">
+                            <h4>Peinture façade extérieure</h4>
+                            <p>Le Relecq-Kerhuon • Peinture</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="renovation">
+                    <div class="before-after">
+                        <div class="gallery-single-image" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070');"></div>
+                        <div class="gallery-info">
+                            <h4>Aménagement intérieur</h4>
+                            <p>Brest • Thème Dancy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="contact.html" class="btn btn-primary btn-lg">Voir plus de réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Témoignages</span>
+                <h2 class="section-title">Ils nous font confiance</h2>
+                <p class="section-subtitle">L'avis de nos clients satisfaits</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Travail impeccable sur notre façade en pierre. L'équipe est professionnelle, ponctuelle et le résultat dépasse nos attentes. Je recommande vivement !"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MP</div>
+                            <div>
+                                <div class="author-name">Marie Pouliquen</div>
+                                <div class="author-location">Brest centre</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Rénovation complète de notre maison. Équipe à l'écoute, respect des délais et du budget. Un grand merci pour votre professionnalisme."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JL</div>
+                            <div>
+                                <div class="author-name">Jean Le Goff</div>
+                                <div class="author-location">Guipavas</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Peinture intérieure et extérieure de qualité exceptionnelle. Les finitions sont parfaites. Nous sommes ravis du résultat !"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SB</div>
+                            <div>
+                                <div class="author-name">Sophie Bertrand</div>
+                                <div class="author-location">Plouzané</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-prev">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"/>
+                    </svg>
+                </button>
+                <button class="testimonial-next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à démarrer votre projet ?</h2>
+                <p>Obtenez un devis gratuit et personnalisé en moins de 24h</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-white btn-lg">Demander un devis</a>
+                    <a href="tel:0298000000" class="btn btn-outline-white btn-lg">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        02 98 00 00 00
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">AB</span>
+                        <span class="logo-subtitle">Construction & Rénovation</span>
+                    </a>
+                    <p class="footer-description">
+                        Artisans experts en maçonnerie, peinture et rénovation complète à Brest et alentours. 
+                        Qualité artisanale et résultats durables depuis 2008.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="maconnerie.html">Maçonnerie</a></li>
+                        <li><a href="peinture.html">Peinture</a></li>
+                        <li><a href="theme-dancy.html">Thème Dancy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="maconnerie.html">Construction neuve</a></li>
+                        <li><a href="maconnerie.html">Rénovation façade</a></li>
+                        <li><a href="peinture.html">Peinture intérieure</a></li>
+                        <li><a href="peinture.html">Peinture extérieure</a></li>
+                        <li><a href="theme-dancy.html">Rénovation thématique</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Brest, Finistère (29)</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:0298000000">02 98 00 00 00</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:contact@ab-construction-brest.fr">contact@ab-construction-brest.fr</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <span>Lun - Ven : 8h - 18h<br>Sam : 9h - 12h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 AB Construction Rénovation Brest. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <a href="contact.html" class="floating-cta" id="floatingCta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        <span>Devis gratuit</span>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
